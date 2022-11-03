@@ -1,0 +1,1 @@
+paste in cmd: python server.py

@@ -1,0 +1,35 @@
+body{
+    background: linear-gradient(#ff5c7f, #ff494c) fixed;
+}
+
+$line_gray:(rgb(212, 212, 212));
+.container{
+    padding: 5%;
+    background: #ffff;
+    border-left: 5px solid $line_gray;
+    border-right: 5px solid $line_gray;
+    text-align: center;
+    width: 80%;
+    height: 100vh;
+}
+.input-editing-task{
+    text-align: center;
+}
+
+.block-create-task{
+    padding-bottom: 50px;
+
+}
+.big-checkbox {
+    height: 100%;
+    width: 100%;
+    border-radius: 5%;
+}
+
+.task{
+    margin-bottom: 1%;
+    background: #ffff;
+    padding-bottom: 5px;
+
+    border-bottom: 3px solid $line_gray;
+}
